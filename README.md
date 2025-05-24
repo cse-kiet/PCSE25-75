@@ -5,9 +5,16 @@
 2. Vidushi Singhal 2100290100184 8C
 
 ## Steps for Execution:
-1. [STEP 1]
-2. [STEP 2]
-   (Add more steps as needed)
+1. Clone the repository : git clone https://github.com/YourUsername/project.git
+2. Change the project directory: cd project
+3.Install required dependencies.
+4. Change to frontend directory: 
+cd frontend
+npm install
+5.Change to backend directory:
+cd backend
+npm start
+6.Run the code & test the application at localhost:3000
 
 ## Checklist:
 1. Final Project Report
