@@ -1,33 +1,67 @@
-# AMBU- The unified Healthcare and Management System
+# AMBU – Unified Healthcare and Management System
 
-## Team Members:
-1. Yash Kumar Goel 2100290100197 8C
-2. Vidushi Singhal 2100290100184 8C
+A comprehensive healthcare and management platform designed to streamline medical services and administrative workflows.
 
-## Steps for Execution:
-1. Clone the repository : git clone https://github.com/YourUsername/project.git
+---
 
-2. Change the project directory: cd project
+## Team Members
 
-3.Install required dependencies.
+| Name             | Roll Number       | Section |
+|------------------|-------------------|---------|
+| Yash Kumar Goel  | 2100290100197     | 8C      |
+| Vidushi Singhal  | 2100290100184     | 8C      |
 
-4. Change to frontend directory: 
+---
+
+## Project Setup Instructions
+
+### 1. Clone the Repository
+```bash
+git clone https://github.com/YourUsername/project.git
+cd project
+2. Install Dependencies
+Frontend
 cd frontend
 npm install
 
-5.Change to backend directory:
-cd backend
+Backend
+cd ../backend
+npm install
 npm start
 
-6.Run the code & test the application at localhost:3000
+3. Run the Application
+http://localhost:3000
+```
+##Project Structure
+project/
+│
+├── frontend/           # React.js Frontend
+│   └── ...             
+│
+├── backend/            # Node.js Backend
+│   └── ...             
+│
+├── database_dump.sql   # SQL file for DB schema/data
+├── Dockerfile          # For deployment
+├── README.md           # Project documentation
+└── ...                 # Other assets
 
-## Checklist:
-1. Final Project Report
-2. Certificate VII Semester (Dated: December 2024).
-3. Certificate VIII Semester (Dated: May 2025).
-4. Synopsis
-5. Final Presentation
-6. Source Code
-7. Database dump (.sql file)
-8. If a web project, then a Docker file for deployment
-9. README (This file)
+##Submission Checklist
+| No. | Item Description                           | Status |
+| --- | ------------------------------------------ | ------ |
+| 1.  | Final Project Report                       | Yes    |
+| 2.  | Certificate (VII Semester - December 2024) | Yes    |
+| 3.  | Certificate (VIII Semester - May 2025)     | Yes    |
+| 4.  | Synopsis                                   | Yes    |
+| 5.  | Final Presentation                         | Yes    |
+| 6.  | Source Code                                | Yes    |
+| 7.  | Database Dump (.sql file)                  | Yes    |
+| 8.  | Dockerfile for Deployment                  | Yes    |
+| 9.  | README File (This file)                    | Yes    |
+
+##Notes
+The application must be tested in a local environment at localhost:3000.
+
+Ensure all dependencies are installed correctly before running the application.
+
+A Dockerfile is provided to support deployment if needed.
