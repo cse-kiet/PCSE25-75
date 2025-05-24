@@ -1,8 +1,8 @@
 # AMBU- The unified Healthcare and Management System
 
 ## Team Members:
-1. Yash Kumar Goel
-2. Vidushi Singhal
+1. Yash Kumar Goel 2100290100197 8C
+2. Vidushi Singhal 2100290100184 8C
 
 ## Steps for Execution:
 1. [STEP 1]
